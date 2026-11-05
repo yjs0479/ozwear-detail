@@ -1,0 +1,241 @@
+{
+ "AS5039": {
+  "colors": {
+   "CHESTNUT": "d01.jpg"
+  },
+  "rep": "rep.jpg",
+  "extra": [
+   "d02.jpg",
+   "d03.jpg",
+   "d04.jpg",
+   "d05.jpg",
+   "d06.jpg",
+   "d07.jpg",
+   "d08.jpg",
+   "d09.jpg"
+  ],
+  "cp": [
+   "cp01.jpg",
+   "cp02.jpg",
+   "cp03.jpg",
+   "cp04.jpg",
+   "cp05.jpg",
+   "cp06.jpg",
+   "cp07.jpg",
+   "cp08.jpg",
+   "cp09.jpg",
+   "cp10.jpg",
+   "cp11.jpg"
+  ],
+  "banner_off": 754,
+  "banner_err": 10.4
+ },
+ "AS3159": {
+  "colors": {
+   "SAND": "d01.jpg"
+  },
+  "rep": "rep.jpg",
+  "extra": [
+   "d02.jpg",
+   "d03.jpg",
+   "d04.jpg",
+   "d05.jpg",
+   "d06.jpg",
+   "d07.jpg",
+   "d08.jpg",
+   "d09.jpg"
+  ],
+  "cp": [
+   "cp01.jpg",
+   "cp02.jpg",
+   "cp03.jpg",
+   "cp04.jpg",
+   "cp05.jpg",
+   "cp06.jpg",
+   "cp07.jpg",
+   "cp08.jpg",
+   "cp09.jpg",
+   "cp10.jpg",
+   "cp11.jpg"
+  ],
+  "banner_off": 754,
+  "banner_err": 10.5
+ },
+ "AS3139": {
+  "colors": {
+   "PEBBLE_GREY": "d01.jpg"
+  },
+  "rep": "rep.jpg",
+  "extra": [
+   "d02.jpg",
+   "d03.jpg",
+   "d04.jpg",
+   "d05.jpg",
+   "d06.jpg",
+   "d07.jpg",
+   "d08.jpg",
+   "d09.jpg"
+  ],
+  "cp": [
+   "cp01.jpg",
+   "cp02.jpg",
+   "cp03.jpg",
+   "cp04.jpg",
+   "cp05.jpg",
+   "cp06.jpg",
+   "cp07.jpg",
+   "cp08.jpg",
+   "cp09.jpg",
+   "cp10.jpg",
+   "cp11.jpg",
+   "cp12.jpg"
+  ],
+  "banner_off": 754,
+  "banner_err": 10.0
+ },
+ "AS3142": {
+  "colors": {
+   "SAND": "d01.jpg"
+  },
+  "rep": "rep.jpg",
+  "extra": [
+   "d02.jpg",
+   "d03.jpg",
+   "d04.jpg",
+   "d05.jpg",
+   "d06.jpg",
+   "d07.jpg",
+   "d08.jpg",
+   "d09.jpg"
+  ],
+  "cp": [
+   "cp01.jpg",
+   "cp02.jpg",
+   "cp03.jpg",
+   "cp04.jpg",
+   "cp05.jpg",
+   "cp06.jpg",
+   "cp07.jpg",
+   "cp08.jpg",
+   "cp09.jpg",
+   "cp10.jpg",
+   "cp11.jpg",
+   "cp12.jpg"
+  ],
+  "banner_off": 754,
+  "banner_err": 10.2
+ },
+ "AS3042": {
+  "colors": {
+   "CREAM": "oc_CREAM.jpg",
+   "BLACK": "oc_BLACK.jpg"
+  },
+  "rep": "rep.jpg",
+  "extra": [
+   "d01.jpg",
+   "d02.jpg",
+   "d03.jpg",
+   "d04.jpg"
+  ],
+  "cp": [
+   "cp01.jpg",
+   "cp02.jpg",
+   "cp03.jpg",
+   "cp04.jpg",
+   "cp05.jpg",
+   "cp06.jpg",
+   "cp07.jpg",
+   "cp08.jpg",
+   "cp09.jpg",
+   "cp10.jpg"
+  ],
+  "banner_off": 568,
+  "banner_err": 11.4
+ },
+ "OZ5012": {
+  "colors": {
+   "CHESTNUT": "oc_CHESTNUT.jpg",
+   "SAND": "oc_SAND.jpg",
+   "GREY": "oc_GREY.jpg"
+  },
+  "colors2": {
+   "CHESTNUT": "oc2_CHESTNUT.jpg",
+   "SAND": "oc2_SAND.jpg",
+   "GREY": "oc2_GREY.jpg"
+  },
+  "rep": "rep.jpg",
+  "extra": [
+   "d01.jpg",
+   "d02.jpg",
+   "d03.jpg",
+   "d04.jpg"
+  ],
+  "cp": [
+   "cp01.jpg",
+   "cp02.jpg",
+   "cp03.jpg",
+   "cp04.jpg",
+   "cp05.jpg",
+   "cp06.jpg",
+   "cp07.jpg",
+   "cp08.jpg"
+  ],
+  "banner_off": 820,
+  "banner_err": 9.0
+ },
+ "OZ5013": {
+  "colors": {
+   "CHESTNUT": "oc_CHESTNUT.jpg"
+  },
+  "colors2": {},
+  "rep": "rep.jpg",
+  "extra": [
+   "d01.jpg",
+   "d02.jpg",
+   "d03.jpg",
+   "d04.jpg",
+   "d05.jpg"
+  ],
+  "cp": [
+   "cp01.jpg",
+   "cp02.jpg",
+   "cp03.jpg",
+   "cp04.jpg",
+   "cp05.jpg",
+   "cp06.jpg",
+   "cp07.jpg",
+   "cp08.jpg",
+   "cp09.jpg",
+   "cp10.jpg"
+  ],
+  "banner_off": 820,
+  "banner_err": 9.2
+ },
+ "OZ5009": {
+  "colors": {
+   "CHESTNUT": "oc_CHESTNUT.jpg"
+  },
+  "colors2": {},
+  "rep": "rep.jpg",
+  "extra": [
+   "d01.jpg",
+   "d02.jpg",
+   "d03.jpg",
+   "d04.jpg",
+   "d05.jpg"
+  ],
+  "cp": [
+   "cp01.jpg",
+   "cp02.jpg",
+   "cp03.jpg",
+   "cp04.jpg",
+   "cp05.jpg",
+   "cp06.jpg",
+   "cp07.jpg",
+   "cp08.jpg",
+   "cp09.jpg"
+  ],
+  "banner_off": 820,
+  "banner_err": 9.2
+ }
+}
