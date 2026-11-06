@@ -1,0 +1,107 @@
+<html><head><meta charset="utf-8"><style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:780px;font-family:'Noto Sans CJK KR','Noto Sans KR',sans-serif;color:#3b2a1e;background:#fff;-webkit-font-smoothing:antialiased}
+.sec{padding:70px 40px;text-align:center}
+.beige{background:#f8f1e7}.white{background:#fff}.dark{background:#3e2a1d;color:#fff}.sand{background:#efe5d6}
+.eb{font-size:15px;letter-spacing:5px;font-weight:700;color:#b8925f;margin-bottom:14px}
+.dark .eb{color:#c9a46c}
+.en{font-family:'Noto Serif CJK KR','Noto Serif',serif;font-size:26px;letter-spacing:2px;color:#a9824f;margin-bottom:12px}
+h1{font-size:40px;line-height:1.38;font-weight:900;color:#3b2a1e}
+h2{font-size:34px;line-height:1.4;font-weight:900;color:#3b2a1e;margin-bottom:18px}
+.dark h2{color:#fff;font-size:40px}
+h2 em{font-style:normal;color:#c9a46c}
+.div{width:60px;height:2px;background:#c9a46c;margin:26px auto}
+.p{font-size:19px;line-height:1.75;color:#5a4636}
+.dark .p{color:#e8dccb}
+.p b{color:#3b2a1e}.dark .p b{color:#fff}
+.chips{margin-top:26px}
+.chip{display:inline-block;border:1.5px solid #b8925f;border-radius:30px;padding:9px 20px;font-size:17px;font-weight:700;margin:0 4px;background:#fff}
+.photo{display:block;width:100%;margin:0 auto}
+.ph{padding:30px 40px;background:#fff}
+.ph img{width:100%;display:block}
+.two{display:flex;gap:16px;padding:20px 40px;background:#fff}.two img{width:50%;display:block}
+.cards3{display:flex;gap:14px;margin-top:34px}
+.card{flex:1;background:#f8f1e7;border-radius:14px;padding:26px 12px;text-align:center}
+.card .t{font-size:19px;font-weight:800;margin-bottom:10px}
+.card .d{font-size:15px;line-height:1.6;color:#6b5646}
+.white .card{background:#f8f1e7}.beige .card,.sand .card{background:#fff}
+.pill{display:inline-block;background:#4a3324;color:#f0dcc0;border-radius:20px;padding:7px 18px;font-size:13px;letter-spacing:3px;font-weight:700;margin-bottom:16px}
+table.cmp{width:100%;border-collapse:collapse;margin-top:34px;font-size:16px}
+table.cmp th{background:#4a3324;color:#fff;padding:14px 8px;font-weight:700}
+table.cmp th.hl{background:#c9a46c}
+table.cmp td{padding:14px 8px;border-bottom:1px solid #eadfce;color:#5a4636}
+table.cmp td.k{font-weight:700;text-align:left;padding-left:16px;color:#3b2a1e}
+table.cmp td.hl{background:#f8f1e7;font-weight:700;color:#3b2a1e}
+.note{font-size:13px;color:#9a8775;margin-top:14px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:30px;text-align:left}
+.g{background:#fff;border-radius:14px;padding:24px 22px}
+.g .t{font-size:19px;font-weight:800;margin-bottom:8px}.g .d{font-size:15px;color:#6b5646;line-height:1.6}
+.colors{display:grid;gap:16px;margin-top:30px}
+.cc{background:#fff;border-radius:16px;padding:18px 18px 22px}
+.cc img{width:100%;display:block;margin-bottom:14px}
+.cc .k{font-size:19px;font-weight:800}.cc .e{font-size:12px;letter-spacing:3px;color:#9a8775;margin-top:4px}
+table.info{width:100%;border-collapse:collapse;margin-top:30px;font-size:16px;text-align:left;border-top:2px solid #4a3324}
+table.info td{padding:16px 18px;border-bottom:1px solid #eadfce;line-height:1.5}
+table.info td.k{width:30%;background:#f8f1e7;font-weight:700;color:#3b2a1e}
+table.info td.v{color:#5a4636}
+.szimg{display:block;width:100%}
+.szbox{background:#fff;border-radius:16px;padding:30px 26px;margin-top:26px;text-align:left}
+table.gs{width:100%;border-collapse:collapse;font-size:22px;text-align:center;border:3px solid #6b4429}
+table.gs th{background:#7a5236;color:#fff;padding:18px 6px;font-size:20px;border:2px solid #6b4429}
+table.gs td{padding:24px 6px;border:2px solid #6b4429;font-weight:900;font-size:30px}
+table.gs tr:nth-child(odd) td{background:#f5e6d8}
+
+.szwrap{background:#fff;border-radius:16px;padding:34px 26px;margin-top:26px}
+table.sz{width:100%;border-collapse:collapse;text-align:center;border:3px solid #6b4429}
+table.sz th{background:#7a5236;color:#fff;padding:20px 6px;font-size:24px;font-weight:900;border:2px solid #6b4429}
+table.sz td{padding:26px 6px;border:2px solid #6b4429;font-weight:900;font-size:34px;color:#3b2a1e;background:#f5e6d8}
+table.sz td.s{font-size:24px;font-weight:800;background:#fff}
+.sznote{font-size:18px;line-height:1.7;color:#5a4636;margin-top:22px;text-align:left}
+
+.p{font-size:21px}
+.card .t{font-size:22px}.card .d{font-size:18px}
+.g .t{font-size:22px}.g .d{font-size:18px}
+table.info{font-size:20px}
+table.info td{padding:20px 18px !important}
+.cc .k{font-size:22px}
+
+.chk{display:flex;gap:16px;align-items:center;font-size:21px;padding:18px 4px;border-bottom:1px dashed #e3d6c3;text-align:left;color:#3b2a1e}
+.chk i{flex:none;width:30px;height:30px;border-radius:50%;background:#4a3326;color:#fff;font-style:normal;font-size:16px;display:flex;align-items:center;justify-content:center}
+.chk b{color:#a5502b}
+.szh{font-family:'Noto Serif CJK KR',serif;font-size:32px;margin:50px 0 26px;color:#3b2a1e}
+table.vt{width:100%;border-collapse:collapse}
+table.vt th{background:#4a3326;color:#fff;font-size:22px;font-weight:700;padding:22px 8px}
+table.vt td{text-align:center;padding:22px 8px;border-bottom:1px solid #eee5d9;font-size:30px;font-weight:900;color:#3b2a1e}
+table.vt td.r{color:#a5502b}
+.pin{margin-top:28px;background:#fff8e6;border:1px solid #f0e2c4;border-radius:14px;padding:22px 26px;font-size:19px;line-height:1.7;text-align:left;color:#3b2a1e}
+</style></head><body><div class="sec beige" style="padding:70px 40px 60px"><div class="eb">AUSTRALIAN SHEPHERD® UGG · 에버어그</div><div class="en">CLASSIC ULTRA MINI BOOTS</div><h1>호주 어그 스웨이드 천연양털<br>클래식 울트라 미니 부츠</h1><div class="div"></div><div class="p" style="font-size:18px">양면 양털(트윈페이스 쉽스킨) 갑피 · 안감<br>EVA 밑창 2.3cm</div><div class="chips"><span class="chip">여성 EU 35 – 41</span><span class="chip">2가지 컬러</span></div></div>
+<!--TOPBLOCK-->
+<div class="sec beige" style="padding:60px 40px 40px"><div class="eb">TWIN-FACE SHEEPSKIN · ULTRA MINI</div><h2>겉도 속도 한 장의 양털,<br>가볍게 신는 울트라 미니</h2><div class="div" style="margin:20px auto"></div><div class="p">겉과 속이 한 장인 통양털(트윈페이스 쉽스킨).<br>가장 많이 찾는 체스트넛 · 블랙 두 가지 컬러예요.</div></div>
+<div class="ph" style="padding:30px 30px 40px;background:#fff"><img src="file:///home/claude/ozwear-detail/corin1107/jade/add/h_both1.jpg"></div>
+<div class="sec white" style="padding:50px 40px 30px"><div class="pill">MATERIAL 01 · TWIN-FACE SHEEPSKIN</div><h2>양면 양털 (트윈페이스 쉽스킨)</h2><div class="p">겉은 부드러운 스웨이드 결, 속은 <b>천연 양털</b>.<br>한 장의 양털이라 가볍고 따뜻해요.</div><div class="cards3"><div class="card"><div class="t">따뜻함</div><div class="d">양털 사이<br>공기층이<br>체온을 지켜줘요</div></div><div class="card"><div class="t">보송함</div><div class="d">습기를 흡수하고<br>통기성이 좋아요</div></div><div class="card"><div class="t">가벼움</div><div class="d">덧댄 안감 없이<br>한 장으로 가볍게</div></div></div></div>
+<div class="two" style="padding:0 40px 40px"><img src="file:///home/claude/corin/pp/s06.jpg"><img src="file:///home/claude/corin/pp/s15.jpg"></div>
+<div class="sec white" style="padding:50px 40px 30px"><div class="pill">MATERIAL 02 · LOGO</div><h2>뒤꿈치 UGG 로고 라벨</h2><div class="p">뒤꿈치의 <b>UGG Australian Shepherd</b> 라벨이<br>정품을 보여줘요.</div></div>
+<div class="ph" style="padding:0 40px 40px"><img src="file:///home/claude/corin/tpl/heel_trim.jpg"></div>
+<div class="sec white" style="padding:50px 40px 30px"><div class="pill">MATERIAL 03 · EVA SOLE</div><h2>가벼운 EVA 밑창 2.3cm</h2><div class="p"><b>2.3cm EVA 밑창</b>이라<br>가볍고 쿠션감 있게 편안해요.</div></div>
+<div class="two" style="padding:0 40px 40px"><img src="file:///home/claude/corin/pp/s09.jpg"><img src="file:///home/claude/corin/pp/s18.jpg"></div>
+<div class="sec beige"><div class="eb">GENUINE AUSTRALIAN BRAND</div><h2>호주 브랜드 정품의 증거</h2><div class="p"><b>AUSTRALIAN SHEPHERD®</b>가 디자인하고<br>브랜드 기준에 맞춰 생산된 정품입니다.</div><div class="cards3"><div class="card"><div class="t">정품 로고</div><div class="d">제품에 달린<br>UGG 로고</div></div><div class="card"><div class="t">호주 디자인</div><div class="d">호주 브랜드가<br>직접 디자인한<br>오리지널 모델</div></div><div class="card"><div class="t">판매 인증</div><div class="d">브랜드에서<br>발급한<br>판매 인증서<br>보유 판매처</div></div></div></div>
+<div class="sec dark" style="padding:80px 40px"><div class="eb">PREMIUM MATERIALS</div><h2>좋은 어그는<br><em>소재</em>가 다릅니다</h2><div class="p">겉과 속이 하나인 <b>양면 양털(트윈페이스 쉽스킨)</b>.<br>양털 그대로라 더 따뜻하고 보송해요.</div></div>
+<div class="sec beige"><div class="eb">POINT</div><h2>이 제품을 고르는 이유</h2><div class="grid2"><div class="g"><div class="t">통양털</div><div class="d">겉과 속이 한 장.</div></div><div class="g"><div class="t">울트라 미니 기장</div><div class="d">발목 아래 짧은 기장.</div></div><div class="g"><div class="t">EVA 2.3cm</div><div class="d">가볍고 편안한 밑창.</div></div><div class="g"><div class="t">2가지 컬러</div><div class="d">체스트넛 · 블랙.</div></div></div></div>
+<div class="sec sand"><div class="eb">COLOR</div><h2>2가지 컬러</h2><div class="colors" style="grid-template-columns:repeat(2,1fr)"><div class="cc"><img src="file:///home/claude/corin/pp/rep_ch.jpg"><div class="k">체스트넛</div><div class="e">CHESTNUT</div></div><div class="cc"><img src="file:///home/claude/corin/pp/rep_bk.jpg"><div class="k">블랙</div><div class="e">BLACK</div></div></div></div>
+<div class="sec white" style="padding-bottom:20px"><div class="eb">DETAIL</div><h2>디테일까지 꼼꼼하게</h2></div>
+<div class="ph" style="padding:16px 40px"><img src="file:///home/claude/corin/pp/s01.jpg"></div>
+<div class="ph" style="padding:16px 40px"><img src="file:///home/claude/corin/pp/s10.jpg"></div>
+<div class="two"><img src="file:///home/claude/corin/pp/s02.jpg"><img src="file:///home/claude/corin/pp/s14.jpg"></div>
+<div class="two"><img src="file:///home/claude/corin/pp/s05.jpg"><img src="file:///home/claude/corin/pp/s17.jpg"></div>
+<div class="two"><img src="file:///home/claude/ozwear-detail/corin1107/jade/add/w_ch_pair.jpg"><img src="file:///home/claude/ozwear-detail/corin1107/jade/add/w_bk_pair.jpg"></div>
+<div class="two"><img src="file:///home/claude/corin/pp/s04.jpg"><img src="file:///home/claude/corin/pp/s13.jpg"></div>
+<div style="height:40px;background:#fff"></div>
+<div class="sec beige"><div class="eb">INFORMATION</div><h2>제품 정보</h2><table class="info" style="background:#fff"><tr><td class="k">브랜드</td><td class="v">AUSTRALIAN SHEPHERD® UGG<br>(에버어그)</td></tr><tr><td class="k">모델</td><td class="v">클래식 울트라 미니 부츠</td></tr><tr><td class="k">브랜드 · 디자인</td><td class="v">호주</td></tr><tr><td class="k">제조국</td><td class="v">중국 (OEM 생산)</td></tr><tr><td class="k">갑피 · 안감</td><td class="v">양면 양털 (트윈페이스 쉽스킨)</td></tr><tr><td class="k">밑창</td><td class="v">EVA (약 2.3cm)</td></tr><tr><td class="k">색상</td><td class="v">체스트넛 / 블랙</td></tr><tr><td class="k">사이즈</td><td class="v">여성 EU 35 ~ 41</td></tr></table></div>
+<div class="sec white"><div class="eb">SIZE GUIDE</div><h2>사이즈 안내</h2>
+<div class="chk"><i>✓</i><span>정사이즈로 출시되었습니다.</span></div>
+<div class="chk"><i>✓</i><span>발볼이 넓거나 발등이 높으면 <b>한 사이즈 업</b> 추천.</span></div>
+<div class="chk"><i>✓</i><span>착화감은 개인차가 있으니 신중히 선택해 주세요.</span></div>
+<h3 class="szh">여성 사이즈 가이드</h3>
+<table class="vt"><tr><th>평소 사이즈</th><th>옵션 선택</th></tr>
+<tr><td>225</td><td class="r">EU 35</td></tr><tr><td>230</td><td class="r">EU 36</td></tr><tr><td>235</td><td class="r">EU 37</td></tr><tr><td>240</td><td class="r">EU 38</td></tr><tr><td>245</td><td class="r">EU 39</td></tr><tr><td>250~255</td><td class="r">EU 40</td></tr><tr><td>260~265</td><td class="r">EU 41</td></tr></table>
+<div class="pin">📌 제품 라벨에는 <b>EU 사이즈</b>로 표기되어 있어요.<br>에버어그 공식 여성 사이즈표 기준이에요.</div></div></body></html>
